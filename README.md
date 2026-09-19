@@ -1,5 +1,9 @@
 # 3D Mapping — real-time monocular visual SLAM → Unity
 
+[![CI](https://github.com/AadithyaSairam/3D-mapping/actions/workflows/ci.yml/badge.svg)](https://github.com/AadithyaSairam/3D-mapping/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+
 A plain RGB webcam feeds a from-scratch monocular visual SLAM pipeline
 (Python + OpenCV) that tracks the camera's motion and incrementally
 triangulates a 3D point cloud of the room around it, streamed live over
@@ -142,3 +146,7 @@ ambiguity, no bundle adjustment, no loop closure, no relocalization, no
 homography-vs-essential-matrix degeneracy handling) and why each one is a
 reasonable line to draw for a from-scratch learning project rather than an
 oversight.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
