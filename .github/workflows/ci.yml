@@ -40,6 +40,6 @@ jobs:
           pip install -r requirements.txt pytest
 
       - name: Run tests
-        # The suite is headless by design — it runs the whole tracker against
+        # The suite is headless by design, it runs the whole tracker against
         # the synthetic camera, so it needs neither a webcam nor a display.
         run: python -m pytest tests/ -v
